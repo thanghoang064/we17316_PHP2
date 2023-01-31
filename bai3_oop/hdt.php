@@ -4,6 +4,14 @@ class SinhVien {
     public $maSV;
     public $tenSV;
     public $namSinh;
+    //phương thức khởi tạo (Hàm đặc  biệt)
+    public function __construct($maSV,$tenSV,$namSinh)
+    {
+        $this->maSV = $maSV;
+        $this->tenSV = $tenSV;
+        $this->namSinh = $namSinh;
+    }
+
     //tạo ra hàm set giá trị
     public function setMaSV($maSV) {
         $this->maSV = $maSV;
@@ -19,12 +27,13 @@ class SinhVien {
 
 }
 //khởi tạo đối tượng (Tạo ra nhiều đối tượng sinh viên)
-$sv1 = new SinhVien();//tạo ra 1 tk sinh viên
-$sv1->setMaSV("PH123456");
+$sv1 = new SinhVien("PH12345","thang",1996);//tạo ra 1 tk sinh viên
+//$sv1->setMaSV("PH123456");
+
 $sv1->hienThiThongTin();
-$sv2 = new SinhVien();//tạo ra 1 tk sinh viên nứa
-$sv2->setMaSV("PU43949");
-$sv2->hienThiThongTin();
+//$sv2 = new SinhVien();//tạo ra 1 tk sinh viên nứa
+//$sv2->setMaSV("PU43949");
+//$sv2->hienThiThongTin();
 //tạo 1 class giảng viên gồm thuộc tính tên,mã,nămsinh,lương cơ bản,số giờ dạy
 //tạo các phương thức set cho class trên
 // tạo phương thức hiển thị giảng viên in bổ sung tuổi giảng viên  và lương giảng viên và xếp loại
