@@ -1,0 +1,7 @@
+//kiểm tra xem phiên bản php của máy mình là phiên bản nào
+// http://localhost/dashboard/phpinfo.php
+// nếu phiên bản php < 8.0 (Xóa đi cài lại xampp)
+//cài phiên bản 8.1.12 / PHP 8.1.12
+- cài đặt composer trên trang https://getcomposer.org/
+- cài đặt xong composer kiểm tra bằng cách
+- ấn chuột vào màn hình desktop chọn git bash here và gõ lệnh composer -v
