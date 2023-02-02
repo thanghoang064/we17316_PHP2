@@ -13,3 +13,5 @@
 /// tạo phương thức tính tổng lương = luongCB *soGioDay
 /// //tạo phương thức hiển thị thông tin giảng viên hiển thị ra các thông tin
 //// hoten,diachi,tuoi,email,sdt,tổng lương
+///
+//sử dụng  hàm construct để set giá trị cho các thuộc tính của class cha và class con
