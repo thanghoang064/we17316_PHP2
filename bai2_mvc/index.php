@@ -4,7 +4,8 @@ switch ($url)  {
     case '/':
         //dieu huong ve controler product
         require_once 'controllers/ProductController.php';
-        echo listProduct();
+        $productController = new ProductController();
+        echo $productController->listProduct();
         break;
     case 'add-product':
         //goi ra day

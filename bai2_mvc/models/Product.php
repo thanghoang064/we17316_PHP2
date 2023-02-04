@@ -1,7 +1,12 @@
 <?php
 require_once 'models/db.php';
-function getProduct(){
-    $sql = "select * from product";
-    return getData($sql);
+class Product extends Db
+{
+    public function getProduct()
 
+    {
+        $sql = "select * from product";
+        return $this->getData($sql);
+
+    }
 }

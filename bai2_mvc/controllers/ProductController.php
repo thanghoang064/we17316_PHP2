@@ -1,12 +1,20 @@
 <?php
 require_once "models/Product.php";
-function listProduct() {
-    $products = getProduct();
-    //test xem co nhan duoc gia tri tu model ko
-    include_once "views/product.php";
-}
-function addProduct() {
-    return "Day la trang them san pham";
+class ProductController
+{
+    public function listProduct()
+    {
+        //Khởi tạo đối tượng producrt
+        $product = new Product();
+        $products = $product->getProduct();
+        //test xem co nhan duoc gia tri tu model ko
+        include_once "views/product.php";
+    }
+
+    public function addProduct()
+    {
+        return "Day la trang them san pham";
+    }
 }
 
 //bai lab
