@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e6076c3-797a-4e5a-8558-73cb1617b877" name="Default Changelist" comment="update project">
-      <change afterPath="$PROJECT_DIR$/bai4_nsp/namespace.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai4_nsp/nps2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai4_nsp/nsp1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai4_nsp/nsp3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_demonsp/controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_demonsp/controllers/CustomerController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_demonsp/controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_demonsp/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_demonsp/models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_demonsp/models/Customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5_demonsp/models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +78,7 @@
       <workItem from="1675305452016" duration="5377000" />
       <workItem from="1675478493671" duration="2071000" />
       <workItem from="1675482323947" duration="2208000" />
+      <workItem from="1675910456383" duration="4458000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1673066046664</created>
@@ -139,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675483326537</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update project">
+      <created>1675910463903</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675910463903</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,14 +173,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="update project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="544" y="379" key="NewPhpFileDialog" timestamp="1675484106642">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state x="484" y="303" key="NewPhpFileDialog" timestamp="1675911702907">
+      <screen x="0" y="23" width="1280" height="662" />
     </state>
     <state x="544" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1673063295441" />
+    <state x="484" y="303" key="NewPhpFileDialog/0.23.1280.662@0.23.1280.662" timestamp="1675911702907" />
     <state x="544" y="379" key="NewPhpFileDialog/0.23.1440.842@0.23.1440.842" timestamp="1675484106642" />
-    <state x="342" y="184" key="Vcs.Push.Dialog.v2" timestamp="1675483328287">
+    <state x="342" y="184" key="Vcs.Push.Dialog.v2" timestamp="1675910465225">
       <screen x="0" y="23" width="1440" height="842" />
     </state>
-    <state x="342" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.842@0.23.1440.842" timestamp="1675483328287" />
+    <state x="342" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.842@0.23.1440.842" timestamp="1675910465225" />
   </component>
 </project>
