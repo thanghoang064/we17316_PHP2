@@ -20,13 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e6076c3-797a-4e5a-8558-73cb1617b877" name="Default Changelist" comment="update project">
-      <change afterPath="$PROJECT_DIR$/bai5_demonsp/controllers/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_demonsp/controllers/CustomerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_demonsp/controllers/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_demonsp/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_demonsp/models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_demonsp/models/Customer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bai5_demonsp/models/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6_base_mvc/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6_base_mvc/app/controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6_base_mvc/app/models/BaseModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6_base_mvc/common/route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6_base_mvc/env.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai6_base_mvc/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_autoload/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/we17316_PHP2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/we17316_PHP2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +35,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/bai5_demonsp/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/bai5_demonsp/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="2JyvKng9zo2CjIheAdTeuRslnfR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,6 +67,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bai6_base_mvc/common" />
+      <recent name="$PROJECT_DIR$/bai6_base_mvc" />
+      <recent name="$PROJECT_DIR$/bai6_base_mvc/app/models" />
       <recent name="$PROJECT_DIR$/bai2_mvc/models" />
     </key>
   </component>
@@ -78,7 +88,8 @@
       <workItem from="1675305452016" duration="5377000" />
       <workItem from="1675478493671" duration="2071000" />
       <workItem from="1675482323947" duration="2208000" />
-      <workItem from="1675910456383" duration="4458000" />
+      <workItem from="1675910456383" duration="5179000" />
+      <workItem from="1676083681987" duration="4143000" />
     </task>
     <task id="LOCAL-00001" summary="update project">
       <created>1673066046664</created>
@@ -150,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675910463903</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update project">
+      <created>1675914924991</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675914924991</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,15 +191,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="update project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="484" y="303" key="NewPhpFileDialog" timestamp="1675911702907">
-      <screen x="0" y="23" width="1280" height="662" />
+    <state x="393" y="163" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1676086519551">
+      <screen x="0" y="23" width="1280" height="660" />
+    </state>
+    <state x="393" y="163" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.660@0.23.1280.660" timestamp="1676086519551" />
+    <state x="484" y="302" key="NewPhpFileDialog" timestamp="1676085681600">
+      <screen x="0" y="23" width="1280" height="660" />
     </state>
     <state x="544" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1673063295441" />
-    <state x="484" y="303" key="NewPhpFileDialog/0.23.1280.662@0.23.1280.662" timestamp="1675911702907" />
+    <state x="484" y="302" key="NewPhpFileDialog/0.23.1280.660@0.23.1280.660" timestamp="1676085681600" />
+    <state x="484" y="303" key="NewPhpFileDialog/0.23.1280.662@0.23.1280.662" timestamp="1675914987816" />
     <state x="544" y="379" key="NewPhpFileDialog/0.23.1440.842@0.23.1440.842" timestamp="1675484106642" />
-    <state x="342" y="184" key="Vcs.Push.Dialog.v2" timestamp="1675910465225">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state x="304" y="150" key="Vcs.Push.Dialog.v2" timestamp="1675914926928">
+      <screen x="0" y="23" width="1280" height="662" />
     </state>
+    <state x="304" y="150" key="Vcs.Push.Dialog.v2/0.23.1280.662@0.23.1280.662" timestamp="1675914926928" />
     <state x="342" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.842@0.23.1440.842" timestamp="1675910465225" />
   </component>
 </project>
