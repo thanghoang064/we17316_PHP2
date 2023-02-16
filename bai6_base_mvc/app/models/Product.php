@@ -7,4 +7,9 @@ class Product extends BaseModel {
         $this->setQuery($sql);
         return $this->loadAllRows();
     }
+    public function addProduct($id,$ten_sp,$gia) {
+        $sql = "insert into $this->table values (?,?,?)";
+        $this->setQuery($sql);
+        return $this->execute([$id,$ten_sp,$gia]);
+    }
 }

@@ -20,6 +20,10 @@ $router->get('/', function(){
 });
 
 $router->get('test', [App\Controllers\ProductController::class, 'index']);
+//route này để hiển thị ra view add
+$router->get('add-product', [App\Controllers\ProductController::class,'addProduct']);
+//route này để thực thi lệnh thêm
+$router->post('add-product-post', [App\Controllers\ProductController::class,'addProductPost']);
 //khu vực cần quan tâm ---end---
 # NB. You can cache the return value from $router->getData() so you don't have to create the routes each request - massive speed gains
 $dispatcher = new Phroute\Phroute\Dispatcher($router->getData());
