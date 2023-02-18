@@ -3,16 +3,18 @@ namespace App\Controllers;
 
 
 use App\Models\Product;
+use function Symfony\Component\Translation\Extractor\extractFromDirectory;
 
 class ProductController extends BaseController {
+    public $product;
     public function __construct(){
-
+        $this->product = new Product();
     }
     public function index() {
         $title = "Danh sách sản phẩm";
-        $product = new Product();
+//        $product = new Product();
         //hứng được giá trị từ hàm getProduct
-        $products = $product->getProduct();
+        $products = $this->product->getProduct();
         //gọi view blade và bắn dữ liệu sang view blade
         $tieuDe = "Trang danh sách sản phẩm";
         $this->render('product.list',compact('title','tieuDe','products'));
@@ -35,10 +37,22 @@ class ProductController extends BaseController {
                 redirect('errors',$errors,'add-product');
             } else {
                 $product = new Product();
-                $result = $product->addProduct(NULL,$_POST['ten_sp'],$_POST['don_gia']);
+                $result = $this->product->addProduct(NULL,$_POST['ten_sp'],$_POST['don_gia']);
                 if ($result) {
                     redirect('success','Thêm sản phẩm thành công','add-product');
                 }
+            }
+        }
+    }
+    public function editProduct($id) {
+        $product = $this->product->getDetailProduct($id);
+        return $this->render('product.edit',compact('product'));
+    }
+    public function editProductPost($id) {
+        if (isset($_POST['sua'])) {
+            $result = $this->product->updateProduct($id,$_POST['ten_sp'],$_POST['don_gia']);
+            if ($result) {
+                redirect('success','Sửa sản phẩm thành công','edit-product/'.$id);
             }
         }
     }
